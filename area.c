@@ -9,8 +9,9 @@ int main()
   printf("Enter the radius of a circle\n");
 
   scanf("%f", &radius);
-
+  
   area = PI*radius*radius;
+  
   circumference = 2*PI*radius;
   printf("Area of the circle = %.2f\n", area);
   return 0;
